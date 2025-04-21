@@ -12,7 +12,7 @@ public class IndexController {
 
     @GetMapping("/public")
     public String publicPage(){
-        return "public_2";
+        return "public";
     }
 
     @GetMapping("/ads")
