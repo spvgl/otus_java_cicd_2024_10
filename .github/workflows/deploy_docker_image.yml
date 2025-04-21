@@ -1,16 +1,8 @@
-name: Create Docker Image
-
-#on:
-#  push:
-#    branches:
-#      - releases/**
+name: Create Docker Image For Release
 
 on:
-  pull_request:
-    branches: [main, master, develop]
   push:
     branches:
-      - master
       - releases/**
 
 jobs:

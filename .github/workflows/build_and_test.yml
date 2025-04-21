@@ -1,16 +1,8 @@
-name: Build Project
-
-#on:
-#  pull_request:
-#    branches: [main, master, develop]
+name: Build Project On PR
 
 on:
   pull_request:
     branches: [main, master, develop]
-  push:
-    branches:
-      - master
-      - releases/**
 
 jobs:
   build:
